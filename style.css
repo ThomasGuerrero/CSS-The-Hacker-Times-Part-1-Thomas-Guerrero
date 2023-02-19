@@ -25,6 +25,7 @@ li {
     border-top: 1px solid #777;
     border-bottom: 1px solid #777;
     display: inline-block;
+    text-align: center;
 }
 
 body {
@@ -40,4 +41,21 @@ a {
 p {
     display: inline-block;
     width: 700px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+
+.more-articles {
+    display: inline-block;
+}
+
+h5 {
+    color: red;
+    font-weight: 900;
+    font-size: 14px;
 }
